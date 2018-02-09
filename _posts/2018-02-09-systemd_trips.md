@@ -6,7 +6,7 @@ title: 谈一谈在配置systemd的服务的时候遇到的坑
 {{ page.title }}
 ================
 
-<p class="meta">9 Feb 2018 - San Francisco</p>
+<p class="meta">9 Feb 2018 - 北京</p>
 
 在开发智能客服的过程中，需要在阳光保险的新乡市服务器上部署一个程序intellianswer，我希望它可以一直存在，所以就使用sytemd来管理。
 
