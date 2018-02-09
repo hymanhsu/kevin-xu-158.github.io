@@ -14,7 +14,7 @@ title: 谈一谈在配置systemd的服务的时候遇到的坑
 
 首先编写/usr/lib/systemd/system/intellianswer.service：
 
-----------
+{% highlight java %}
 [Unit]
 Description=intellianswer
 After=network.target
@@ -34,9 +34,7 @@ LimitCORE=infinity
 
 [Install]
 WantedBy=multi-user.target
-
-----------
-
+{% endhighlight %}
 
 创建启动用户：
 groupadd odin
